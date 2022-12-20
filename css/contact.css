@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+#top .header-wrapper__top__ttl {
+  width: 30%;
+}
+
+#form{
+  padding: 5% 0;
+}
+
+.form-wrapper__phone{
+  width: 350px;
+  height: 200px;
+  padding: 5%;
+  background-color: #EEF2ED;
+  margin: 0 auto 5% auto;
+
+}
+
+.form-wrapper__phone__ttl{
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20%;
+  font-family: none;
+}
+
+.form-wrapper__phone__list{
+  display: flex;
+  align-items: center;
+}
+
+.form-wrapper__phone__list img{
+  width: 70px;
+  height: 70px;
+}
+
+.form-wrapper__phone__list__item{
+  margin-left: 2%;
+}
+
+.form-wrapper__phone__list__item__number{
+  font-size: 2rem;
+  margin-bottom: 3%;
+}
+
+
+/* ==============================
+mail 
+============================== */
+
+.form-wrapper__mail{
+  width: 800px;
+  padding: 5% 8%;
+  background-color: #EEF2ED;
+  margin: 0 auto 0 auto;
+}
+
+.form-wrapper__mail__ttl{
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20%;
+  font-family: none;
+}
+
+dl{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+dt{
+  width: 30%;
+  font-size: 1.25rem;
+  margin-bottom: 8%;
+}
+
+dd{
+  width: 70%;
+}
+
+input{
+  width: 550px;
+}
+
+textarea{
+  width: 550px;
+  height: 200px;
+  margin-bottom: 20%;
+}
+
+.button input{
+  all: unset;
+  display: block;
+  width: 150px;
+  background-color: #D9D9D9;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.button input:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+.form-wrapper__undertxt{
+  margin-top: 5%;
+  font-family: serif;
+  font-size: 2.5rem;
+  letter-spacing: 30px;
+  color: #999999;
+  text-align: right;
+}
